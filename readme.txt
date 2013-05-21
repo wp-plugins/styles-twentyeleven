@@ -7,7 +7,7 @@ Requires at least: 3.4
 Tested up to: 3.5.2
 Stable tag: 1.0
 
-Be creative with TwentyEleven colors and fonts. Styles changes everything.
+Be creative with colors and fonts. Styles changes everything.
 
 == Description ==
 
