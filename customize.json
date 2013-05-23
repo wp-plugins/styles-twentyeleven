@@ -20,15 +20,15 @@
 		{ "selector": "#site-title a", "type": "text", "label": "Title" },
 		{ "selector": "#site-title a:link, #site-title a:active, #site-title a:visited", "type": "color", "label": "Title", "template": "$selector { color: $value !important; }" },
 		{ "selector": "#site-title a:hover", "type": "color", "label": "Title", "template": "$selector { color: $value !important; }" },
-		/* Description */
-		{ "selector": "#site-description", "type": "text", "label": "Description" },
-		{ "selector": "#site-description", "type": "color", "label": "Description", "template": "$selector { color: $value !important; }" },
+		/* Tagline */
+		{ "selector": "#site-description", "type": "text", "label": "Tagline" },
+		{ "selector": "#site-description", "type": "color", "label": "Tagline", "template": "$selector { color: $value !important; }" },
 		{}
 	],
 	"Search Form": [
 		/* Input */
 		{ "selector": "#s", "type": "text", "label": "Form" },
-		{ "selector": "#s", "type": "color", "label": "Form" },
+		{ "selector": "#s", "type": "color", "label": "Form", "template": "$selector { color: $value; } $selector::-webkit-input-placeholder { color: $value; } $selector:-moz-placeholder { color: $value; } $selector::-moz-placeholder { color: $value; } $selector:-ms-input-placeholder { color: $value; }" },
 		{ "selector": "#s", "type": "background-color", "label": "Form" },
 		/* Focus */
 		{ "selector": "#s:focus, #branding #s:focus", "type": "background-color", "label": "Form", "important": true },
@@ -44,7 +44,7 @@
 		/* TODO: Consider 'css' or 'additional' setting. Set with jQuery.attr( 'style' ) */
 		{ "selector": "#access", "type": "background-color", "label": "Area", "template": "$selector { background-color: $value; background-image: none; }" },
 		/* Top items */
-		{ "selector": "#access ul", "type": "text", "label": "Top item" },
+		{ "selector": "#access ul, #access ul > li > a", "type": "text", "label": "Top item" },
 		{ "selector": "#access ul > li > a", "type": "color", "label": "Top item" },
 		{ "selector": "#access ul > li > a:hover, #access li:hover > a, #access ul > li > a:focus", "type": "color", "label": "Top item" },
 		{ "selector": "#access ul > li > a", "type": "background-color", "label": "Top item" },
@@ -64,7 +64,7 @@
 		{ "selector": "#secondary .widget-title", "type": "text", "label": "Title" },
 		{ "selector": "#secondary .widget-title", "type": "color", "label": "Title" },
 		/* Widget Content */
-		{ "selector": "#secondary aside, #secondary aside ul li", "type": "text", "label": "Content" },
+		{ "selector": "#secondary aside, #secondary aside ul li, #secondary aside a", "type": "text", "label": "Content" },
 		{ "selector": "#secondary aside, #secondary aside ul li", "type": "color", "label": "Content" },
 		/* Widget Link */
 		{ "selector": "#secondary aside a", "type": "color", "label": "Link" },
