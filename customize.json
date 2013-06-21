@@ -198,7 +198,7 @@
 	],
 	"Comments – Content": [
 		/* Template used to remove speech bubble PNG and replace with CSS Triangle. */
-		{ "selector": "#comments .comment", "type": "background-color", "label": "Area", "template": "$selector { background-color: $value; } $selector:before { content: ''; position:absolute; width: 0px; height: 0px; border-left: 28px solid transparent; border-right: 0px solid transparent; border-top: 27px solid $value; }" },
+		{ "selector": "#comments li.comment", "type": "background-color", "label": "Area", "template": "$selector { background-color: $value; } $selector:before { content: ''; position:absolute; width: 0px; height: 0px; border-left: 28px solid transparent; border-right: 0px solid transparent; border-top: 27px solid $value; }" },
 		/* Comment content    - This may need to change to effect comment meta as well */
 		{ "selector": ".comment-content, .comment-content p", "type": "text", "label": "Content" },
 		{ "selector": ".comment-content, .comment-content p, .comment-content h1, .comment-content h2, .comment-content h3, .comment-content h4, .comment-content h5, .comment-content h6, .comment-content blockquote cite, .comment-content th, .comment-content dt", "type": "color", "label": "Content" },
@@ -214,7 +214,7 @@
 	],
 	"Comments – Content (Even)": [
 		/* Template used to remove speech bubble PNG and replace with CSS Triangle. */
-		{ "selector": "#comments .even", "type": "background-color", "label": "Area", "template": "$selector { background-color: $value; } $selector:before { content: ''; position:absolute; width: 0px; height: 0px; border-left: 28px solid transparent; border-right: 0px solid transparent; border-top: 27px solid $value; }" },
+		{ "selector": "#comments li.even", "type": "background-color", "label": "Area", "template": "$selector { background-color: $value; } $selector:before { content: ''; position:absolute; width: 0px; height: 0px; border-left: 28px solid transparent; border-right: 0px solid transparent; border-top: 27px solid $value; }" },
 		/* Comment content    - This may need to change to effect comment meta as well */
 		{ "selector": ".even .comment-content, .even .comment-content p", "type": "text", "label": "Content" },
 		{ "selector": ".even .comment-content, .even .comment-content p, .even .comment-content h1, .even .comment-content h2, .even .comment-content h3, .even .comment-content h4, .even .comment-content h5, .even .comment-content h6, .even .comment-content blockquote cite, .even .comment-content th, .even .comment-content dt", "type": "color", "label": "Content" },
