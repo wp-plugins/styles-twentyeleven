@@ -5,7 +5,7 @@ Author URI: http://brainstormmedia.com
 Tags: css, stylesheet, styles, appearance, customize, customizer, colors, color picker, images, image upload, background, fonts, google fonts, user interface
 Requires at least: 3.4
 Tested up to: 3.5.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 Be creative with colors and fonts. Styles changes everything.
 
@@ -72,6 +72,9 @@ No! Styles is very careful about only loading what is needed to get its job done
 
 == Changelog ==
 
+= 1.0.2 =
+* Fix: Comment background color overlapping comment author name with a second quote bubble triangle. [Thanks @annie-hearts](http://wordpress.org/support/topic/a-bug-puts-a-slash-over-commenters-names).
+
 = 1.0.1 = 
 * Fix: Change sidebar link size with text size.
 * Fix: Change "Description" to "Tagline" to match WordPress naming convention.
@@ -80,3 +83,7 @@ No! Styles is very careful about only loading what is needed to get its job done
 
 = 1.0 =
 * Initial public release.
+
+== Upgrade Notice ==
+
+**Fix:** Comment background color overlapping comment author name with a second quote bubble triangle. [Thanks @annie-hearts](http://wordpress.org/support/topic/a-bug-puts-a-slash-over-commenters-names).
