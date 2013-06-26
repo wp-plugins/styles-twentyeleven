@@ -18,11 +18,11 @@
 		{ "selector": "#branding", "type": "border-top-color", "label": "Header" },
 		/* Title */
 		{ "selector": "#site-title a", "type": "text", "label": "Title" },
-		{ "selector": "#site-title a:link, #site-title a:active, #site-title a:visited", "type": "color", "label": "Title", "template": "$selector { color: $value !important; }" },
-		{ "selector": "#site-title a:hover", "type": "color", "label": "Title", "template": "$selector { color: $value !important; }" },
+		{ "selector": "#site-title a:link, #site-title a:active, #site-title a:visited", "type": "color", "label": "Title", "important": true },
+		{ "selector": "#site-title a:hover", "type": "color", "label": "Title", "important": true },
 		/* Tagline */
 		{ "selector": "#site-description", "type": "text", "label": "Tagline" },
-		{ "selector": "#site-description", "type": "color", "label": "Tagline", "template": "$selector { color: $value !important; }" },
+		{ "selector": "#site-description", "type": "color", "label": "Tagline", "important": true },
 		{}
 	],
 	"Search Form": [
