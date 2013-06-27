@@ -15,7 +15,7 @@ This plugin adds suport for the TwentyEleven theme to the [Styles plugin](http:/
 
 [Try a demo in TwentyEleven](http://demo.stylesplugin.com/twentyeleven).
 
-http://youtu.be/CpKiZEqpcr8
+http://youtube.com/watch?v=CpKiZEqpcr8
 
 **About Styles**
 
