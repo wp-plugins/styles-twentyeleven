@@ -5,7 +5,7 @@ Author URI: http://brainstormmedia.com
 Tags: css, stylesheet, appearance, customize, customizer, colors, color picker, background, fonts, google fonts, user interface, twenty eleven, 2011
 Requires at least: 3.4
 Tested up to: 3.5.2
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 
 Be creative with colors and fonts. Styles changes everything.
 
@@ -14,6 +14,8 @@ Be creative with colors and fonts. Styles changes everything.
 This plugin adds suport for the TwentyEleven theme to the [Styles plugin](http://wordpress.org/extend/plugins/styles).
 
 [Try a demo in TwentyEleven](http://demo.stylesplugin.com/twentyeleven).
+
+http://youtu.be/CpKiZEqpcr8
 
 **About Styles**
 
@@ -90,6 +92,9 @@ No! Styles is very careful about only loading what is needed to get its job done
 
 == Changelog ==
 
+= 1.0.5 =
+* Fix: (Minor) Prevent multiple notices from being displayed if several Styles child plugins are active and requesting changes.
+
 = 1.0.4 =
 * Fix: Live updates for settings that require "!important". Requires Styles 1.0.7.
 * Add: Notice if users don't have Styles 1.0.7 or higher installed.
@@ -111,6 +116,9 @@ No! Styles is very careful about only loading what is needed to get its job done
 * Initial public release.
 
 == Upgrade Notice ==
+
+**1.0.5**
+* Fix: (Minor) Prevent multiple notices from being displayed if several Styles child plugins are active and requesting changes.
 
 **1.0.4**
 
