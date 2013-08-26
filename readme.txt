@@ -4,8 +4,8 @@ Plugin URI: http://stylesplugin.com
 Author URI: http://brainstormmedia.com
 Tags: css, stylesheet, appearance, customize, customizer, colors, color picker, background, fonts, google fonts, user interface, twenty eleven, 2011
 Requires at least: 3.4
-Tested up to: 3.5.2
-Stable tag: 1.0.5
+Tested up to: 3.6
+Stable tag: 1.0.6
 
 Be creative with colors and fonts. Styles changes everything.
 
@@ -15,7 +15,7 @@ This plugin adds suport for the TwentyEleven theme to the [Styles plugin](http:/
 
 [Try a demo in TwentyEleven](http://demo.stylesplugin.com/twentyeleven).
 
-http://youtu.be/CpKiZEqpcr8
+http://youtube.com/watch?v=CpKiZEqpcr8
 
 **About Styles**
 
@@ -92,6 +92,9 @@ No! Styles is very careful about only loading what is needed to get its job done
 
 == Changelog ==
 
+= 1.0.6 =
+* Fix: (Minor) Remove notices that would display in wp-admin if `WP_DEBUG` were enabled.
+
 = 1.0.5 =
 * Fix: (Minor) Prevent multiple notices from being displayed if several Styles child plugins are active and requesting changes.
 
@@ -117,16 +120,4 @@ No! Styles is very careful about only loading what is needed to get its job done
 
 == Upgrade Notice ==
 
-**1.0.5**
-* Fix: (Minor) Prevent multiple notices from being displayed if several Styles child plugins are active and requesting changes.
-
-**1.0.4**
-
-* Fix: Live updates for settings that require "!important". Requires Styles 1.0.7.
-* Add: Notice if users don't have Styles 1.0.7 or higher installed.
-* Add: Guide new users to install Styles if this add-on is installed, but Styles is not.
-
-**1.0.3**
-
-* Add: Comment border color, including speech bubble triangle.
-* Fix: Comment background color overlapping comment author name with a second quote bubble triangle. [Thanks @annie-hearts](http://wordpress.org/support/topic/a-bug-puts-a-slash-over-commenters-names).
+Fix: (Minor) Remove notices that would display in wp-admin if `WP_DEBUG` were enabled.
